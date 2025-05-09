@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({font}) => {
     return (
         <div className='flex justify-between'>
             <div>
-                <p className=' text-3xl font-bold '>Next Supremacy</p>
+                <p className={`${font.className} text-3xl font-bold `}>Next Supremacy</p>
             </div>
             <div>
                 <ul className='flex gap-4 items-center'>

@@ -12,7 +12,7 @@ export default function Home() {
       Intrinsicly aggregate future-proof value via team building paradigms. Professionally drive adaptive materials via principle-centered information. Continually incubate turnkey interfaces without world-class functionalities. Distinctively.
       <div className=" w-[400px]">
         {/* <Image width={500} height={500} src={'https://i.pinimg.com/736x/f8/a6/e5/f8a6e530eff49fd9651859f6482bef2e.jpg'} alt="back of the success" /> */}
-        <Image src={oldDhaka} alt="Puran Dhaka" />
+        <Image placeholder="blur" src={oldDhaka} alt="Puran Dhaka" />
       </div>
     </div>
   );
