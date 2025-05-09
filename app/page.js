@@ -1,3 +1,5 @@
+import oldDhaka from "@/public/oldDhaka.jpg"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -6,6 +8,12 @@ export default function Home() {
 
       Synergistically predominate B2B alignments without web-enabled quality vectors. Intrinsicly exploit visionary methods of empowerment via cross-media materials. Monotonectally whiteboard value-added total linkage through integrated e-services. Seamlessly strategize timely e-markets with synergistic e-business. Enthusiastically leverage existing customized customer service and corporate quality vectors.
 
-      Intrinsicly aggregate future-proof value via team building paradigms. Professionally drive adaptive materials via principle-centered information. Continually incubate turnkey interfaces without world-class functionalities. Distinctively.    </div>
+
+      Intrinsicly aggregate future-proof value via team building paradigms. Professionally drive adaptive materials via principle-centered information. Continually incubate turnkey interfaces without world-class functionalities. Distinctively.
+      <div className=" w-[400px]">
+        {/* <Image width={500} height={500} src={'https://i.pinimg.com/736x/f8/a6/e5/f8a6e530eff49fd9651859f6482bef2e.jpg'} alt="back of the success" /> */}
+        <Image src={oldDhaka} alt="Puran Dhaka" />
+      </div>
+    </div>
   );
 }
